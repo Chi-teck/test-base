@@ -1,0 +1,14 @@
+{
+    "name": "chi-teck/test-base",
+    "description": "Extended base class for Drupal functional tests.",
+    "type": "library",
+    "require": {
+        "drupal/core": "^8"
+    },
+    "license": "GPL-2.0+",
+    "autoload": {
+        "classmap": [
+            "BrowserTestBase.php"
+        ]
+    }
+}
