@@ -8,6 +8,11 @@ use Drupal\Tests\BrowserTestBase as RealBrowserTestBase;
  * Base class for browser tests.
  */
 abstract class BrowserTestBase extends RealBrowserTestBase {
+  
+  /**
+   * {@inheritdoc}
+   */
+  protected $defaultTheme = 'classy';
 
   /**
    * Checks that an element exists on the current page.
