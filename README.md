@@ -1,1 +1,1 @@
-Deprecated
+This project is deprecated.
